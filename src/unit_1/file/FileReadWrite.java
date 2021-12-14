@@ -9,7 +9,7 @@ package unit_1.file;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-/*Program to write from one file to another using input stream.*/
+/*Program to write from one file to another using input byte stream.*/
 public class FileReadWrite {
     public static void main(String[] args) throws IOException {
         FileInputStream in=null;
