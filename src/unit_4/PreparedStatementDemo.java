@@ -32,9 +32,9 @@ public class PreparedStatementDemo {
 
 
         } catch (SQLException e) {
-            e.printStackTrace();
-        } catch (Exception e) {
-            e.printStackTrace();
+            System.out.println("Invalid SQL Statement.");
+        } catch (ClassNotFoundException e) {
+            System.out.println("Wrong class name.");
         }
     }
 
