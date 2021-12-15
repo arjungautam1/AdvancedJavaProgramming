@@ -5,7 +5,7 @@ import java.sql.*;
 public class PreparedStatementDemo {
 
     static final String db_url = "jdbc:mysql://localhost/demo";
-    static final String driver_jdbc = "com.mysql.jdbc.Driver";
+    static final String driver_jdbc = "com.mysql.cj.jdbc.Driver";
     static final String username = "root";
     static final String password = "$Lase5431";
 
@@ -25,6 +25,8 @@ public class PreparedStatementDemo {
             statement.setInt(2, 23);
             statement.setString(3, "Ram");
             statement.executeUpdate();
+
+            System.out.println("Data inserted successfully in database.");
             statement.close();
             conn.close();
 
