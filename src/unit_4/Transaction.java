@@ -20,7 +20,6 @@ public class Transaction {
         Class.forName(JDBC_Driver);
         connection=DriverManager.getConnection(db_url,username,password);
         statement=connection.createStatement();
-'/'
 
         connection.setAutoCommit(false);
 
