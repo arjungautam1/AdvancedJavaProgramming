@@ -10,9 +10,9 @@ package unit_4;
 import java.sql.*;
 
 public class JDBCDemo {
-    static final String DB_URL = "jdbc:mysql://localhost/demo";
+    static final String DB_URL = "jdbc:mysql://localhost:3306/demo";
     static final String username = "root";
-    static final String password = "$Lase5431";
+    static final String password = "arjun";
 
     public static void main(String[] args) {
         Connection connection = null;
